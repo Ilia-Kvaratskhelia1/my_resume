@@ -1,0 +1,21 @@
+
+  {
+  "path":"/my_resume/",
+  "personalinformation":{
+        "name": "Ilia",
+        "lastName":"Kvaratskhelia",
+        "profileImg":"./images/ilias.jpeg",
+        "jobTitle": "Junio Full-Stack Developer",
+        "location": "City, Country",
+        "email": "your.email@example.com",
+        "phone": "123-456-7890",
+        "website": "https://www.yourwebsite.com"
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "school": "University Name",
+      "year": "Graduation Year"
+    }
+  ]
+}

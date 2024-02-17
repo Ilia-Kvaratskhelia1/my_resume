@@ -1,33 +1,30 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-
+import { Route, Routes } from 'react-router-dom'
+import Home from './components/Home'
+import About from './components/About'
+import Skills from './components/Skills'
+import Header from './sections/Header'
+import Footer from './sections/Footer'
+import NotFound from './components/NotFound'
+import Contact from './components/Contact'
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Routes>
+        <Route path="/my_resume/" element={<Header/>}>
+          <Route index element={<Home/>} />
+          <Route path="/my_resume/about" element={<About />} />
+          <Route path='/my_resume/skills' element={<Skills/>}/>
+          <Route path='/my_resume/contact' element={<Contact/>}/>
+          {/* Using path="*"" means "match anything", so this route
+                acts like a catch-all for URLs that we don't have explicit
+              routes for. */}
+          <Route path="*" element={<NotFound/>} />
+        </Route>
+      
+      
+      </Routes>
+      <Footer/>
     </>
   )
 }
