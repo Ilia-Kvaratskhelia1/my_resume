@@ -1,15 +1,25 @@
 
   {
-  "path":"/my_resume/",
   "personalinformation":{
         "name": "Ilia",
         "lastName":"Kvaratskhelia",
-        "profileImg":"./images/ilias.jpeg",
-        "jobTitle": "Junio Full-Stack Developer",
-        "location": "City, Country",
-        "email": "your.email@example.com",
-        "phone": "123-456-7890",
-        "website": "https://www.yourwebsite.com"
+        "profileImg":"./src/images/ilias.jpeg",
+        "jobTitle": "Junior Full-Stack Developer",
+        "coverLetter":" The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+        "skills":[
+          {"lang":"Html", "img":"./src/images/htmlLogo.png"},
+          {"lang":"Css", "img":"./src/images/htmlLogo.png"},
+          {"lang":"Sass", "img":"./src/images/htmlLogo.png"},
+          {"lang":"Bootsrap", "img":"./src/images/htmlLogo.png"},
+          {"lang":"JavaScript", "img":"./src/images/htmlLogo.png"},
+          {"lang":"Typescript", "img":"./src/images/htmlLogo.png"},
+          {"lang":"Reactjs", "img":"./src/images/htmlLogo.png"},
+          {"lang":"ReactTypescript", "img":"./src/images/htmlLogo.png"},
+          {"lang":"Python", "img":"./src/images/htmlLogo.png"},
+          {"lang":"Django", "img":"./src/images/htmlLogo.png"},
+          {"lang":"Rest Api", "img":"./src/images/htmlLogo.png"},
+          {"lang":"Sql", "img":"./src/images/htmlLogo.png"}
+        ]
   },
   "education": [
     {
@@ -19,3 +29,4 @@
     }
   ]
 }
+

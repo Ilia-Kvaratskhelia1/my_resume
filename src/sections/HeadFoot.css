@@ -49,7 +49,7 @@ nav ul li{
     margin: 20px;
 }
 .burgerMenu{
-    border: 2px solid black;
+    border: 2px solid white;
 } 
 
 @media only screen and (min-width:700px){
@@ -59,7 +59,7 @@ nav ul li{
         display: flex;
         justify-content: center;
         align-items: center;
-        border-bottom: 2px solid black;
+        border-bottom: 2px solid white;
         background-color: transparent;
     }
     
@@ -69,7 +69,7 @@ nav ul li{
         top: 0px;
         position: absolute;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         background-color: transparent;
         
@@ -81,11 +81,10 @@ nav ul li{
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
     }
     
     nav ul li{
-        margin: 0 50px;
         list-style: none;
         position: relative;
         overflow: hidden;
@@ -95,7 +94,7 @@ nav ul li{
         position: absolute;
         width: 120%;
         height: 5px;
-        background-color: black;
+        background-color: white;
         bottom: -15%;
         left: -120%;
         transition: .7s ease-out;
@@ -109,7 +108,7 @@ nav ul li{
         text-decoration: none;
         font-size: 1.3rem;
         font-weight: 400;
-        color: black;
+        color: white;
 
     }
     
@@ -122,3 +121,4 @@ nav ul li{
     display: none;
    }
 }
+

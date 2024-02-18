@@ -16,7 +16,6 @@ function Header() {
       <nav className={burgerActive ? 'deActiveNav' : ''}>
       <div className="img">
       {/* <img src={HeaderBg} alt="/" /> */}
-
       </div>
       <ul>
         <li><Link to="/my_resume/">Home</Link></li>
