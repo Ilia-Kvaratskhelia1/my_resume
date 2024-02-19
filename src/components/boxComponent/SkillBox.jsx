@@ -1,10 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { render } from 'react-dom';
 import styled from 'styled-components';
-function SkillBox(props) {
+import { useParams } from 'react-router-dom'
+import info from "../../info.json"
 
+function SkillBox(props) {
     const {lang, img, id} = props;
+
   return (
     <ContainerSkill  >
             <h2 >{lang}</h2>

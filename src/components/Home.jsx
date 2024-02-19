@@ -5,9 +5,11 @@ import SkillBox from './boxComponent/SkillBox'
 
 
 function Home() {
-  console.log(info.personalinformation.profileImg)
+
+  
+
   return (
-    
+
     <>
       <section className='HomeSect'>
      <div className="container">
@@ -36,6 +38,6 @@ function Home() {
       </section>
     </>
   )
-}
+      }
 
 export default Home
