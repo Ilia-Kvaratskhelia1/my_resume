@@ -20,8 +20,8 @@ function Header() {
       <ul>
         <li><Link to="/my_resume/">Home</Link></li>
         <li><Link to="/my_resume/about">About</Link></li>
-        <li><Link to="/my_resume/skills">Skill</Link></li>
         <li><Link to="/my_resume/contact">Contact</Link></li>
+        <li><Link to="/my_resume/resume">Resume</Link></li>
       </ul>
       
       </nav>  

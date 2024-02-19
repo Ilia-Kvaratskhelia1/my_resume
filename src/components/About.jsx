@@ -6,7 +6,7 @@ function About() {
 
   return (
     <div>
-          <h1>{info.path}</h1>
+          <h1>About</h1>
     </div>
   )
 }

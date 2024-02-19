@@ -7,18 +7,17 @@
         "jobTitle": "Junior Full-Stack Developer",
         "coverLetter":" The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
         "skills":[
-          {"lang":"Html", "img":"./src/images/htmlLogo.png"},
-          {"lang":"Css", "img":"./src/images/htmlLogo.png"},
-          {"lang":"Sass", "img":"./src/images/htmlLogo.png"},
-          {"lang":"Bootsrap", "img":"./src/images/htmlLogo.png"},
-          {"lang":"JavaScript", "img":"./src/images/htmlLogo.png"},
-          {"lang":"Typescript", "img":"./src/images/htmlLogo.png"},
-          {"lang":"Reactjs", "img":"./src/images/htmlLogo.png"},
-          {"lang":"ReactTypescript", "img":"./src/images/htmlLogo.png"},
-          {"lang":"Python", "img":"./src/images/htmlLogo.png"},
-          {"lang":"Django", "img":"./src/images/htmlLogo.png"},
-          {"lang":"Rest Api", "img":"./src/images/htmlLogo.png"},
-          {"lang":"Sql", "img":"./src/images/htmlLogo.png"}
+          {"id":"1", "lang":"Html", "img":"./src/images/htmlLogo.png", "about":""},
+          {"id":"2", "lang":"Css", "img":"./src/images/css.svg.png", "about":""},
+          {"id":"3", "lang":"Sass", "img":"./src/images/sass.png", "about":""},
+          {"id":"4", "lang":"Bootsrap", "img":"./src/images/bt3.png", "about":""},
+          {"id":"5", "lang":"JavaScript", "img":"./src/images/js.svg", "about":""},
+          {"id":"6", "lang":"Typescript", "img":"./src/images/ts.png", "about":""},
+          {"id":"7", "lang":"ReactJs/Ts", "img":"./src/images/react.png", "about":""},
+          {"id":"8", "lang":"Python", "img":"./src/images/py.png", "about":""},
+          {"id":"9", "lang":"Django", "img":"./src/images/djn.png", "about":""},
+          {"id":"10", "lang":"Rest Api", "img":"./src/images/rest.webp", "about":""},
+          {"id":"11", "lang":"Sql", "img":"./src/images/sql.png", "about":""}
         ]
   },
   "education": [

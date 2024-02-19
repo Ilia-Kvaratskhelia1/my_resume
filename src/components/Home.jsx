@@ -1,10 +1,13 @@
 import React from 'react'
 import "./Component.css"
 import info from "..//info.json"
+import SkillBox from './boxComponent/SkillBox'
+
+
 function Home() {
   console.log(info.personalinformation.profileImg)
   return (
-
+    
     <>
       <section className='HomeSect'>
      <div className="container">
@@ -17,15 +20,19 @@ function Home() {
      </div>
      </div>
       </section>
-      <section className='skills'> 
-      <div className="containerSkill">
-        {info.personalinformation.skills.map((item)=>{
-         return <div className="skillsLang">
-            <h2>{item.lang}</h2>
-           <img className='skillLogo' src={item.img} alt="" />
-          </div>
-        })}
+      <div className="skillTitle">
+        <h1>Skills</h1>
       </div>
+      <section className='skills'> 
+      
+        {info.personalinformation.skills.map((item)=>{
+             return <SkillBox 
+            key = {item.id}
+            id = {item.id}
+            lang ={item.lang} 
+            img = {item.img}
+             />
+        })}
       </section>
     </>
   )
