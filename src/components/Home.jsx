@@ -6,8 +6,6 @@ import SkillBox from './boxComponent/SkillBox'
 
 function Home() {
 
-  
-
   return (
 
     <>

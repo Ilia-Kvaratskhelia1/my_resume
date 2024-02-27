@@ -2,12 +2,15 @@ import './App.css'
 import { Route, Routes, useParams} from 'react-router-dom'
 import Home from './components/Home'
 import About from './components/About'
-import Skills from './components/Skills'
+import Skills from './components/boxComponent/Skills'
 import Header from './sections/Header'
 import Footer from './sections/Footer'
 import NotFound from './components/NotFound'
 import Contact from './components/Contact'
 import Resume from './components/Resume'
+
+
+
 function App() {
   return (
     <>
