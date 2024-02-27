@@ -1,6 +1,6 @@
+import "./HeadFoot.css"
 import React from 'react'
 import { useState } from 'react'
-import "./HeadFoot.css"
 import { Divide as Hamburger } from 'hamburger-react'
 import { Link, Outlet } from 'react-router-dom'
 

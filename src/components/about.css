@@ -1,0 +1,39 @@
+ .aboutMeContainer{
+    width: 80%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name{
+    text-align: center;
+}
+.aboutMe{
+    text-align: center;
+    padding: 10px;
+}
+.letter{
+    padding: 5px;
+}
+
+button{
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    transition: 0.3s ease-in;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+@media only screen and (min-width:700px){
+.letter{
+    width: 500px;
+}
+}

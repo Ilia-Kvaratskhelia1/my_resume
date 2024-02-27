@@ -3,29 +3,32 @@
   "personalinformation":{
         "name": "Ilia",
         "lastName":"Kvaratskhelia",
-        "profileImg":"./public/images/ilias.jpeg",
+        "profileImg":"./images/ilias.jpeg",
         "jobTitle": "Junior Full-Stack Developer",
         "coverLetter":" The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
         "skills":[
    
-          {"id":0, "lang":"Html", "img":"./public/images/htmlLogo.png", "about":"ssss"},
-          {"id":1, "lang":"Css", "img":"./public/images/css.svg.png", "about":"sss"},
-          {"id":2, "lang":"Sass", "img":"./public/images/sass.png", "about":"ssss"},
-          {"id":3, "lang":"Bootsrap", "img":"./public/images/bt3.png", "about":"ssasdas"},
-          {"id":4, "lang":"JavaScript", "img":"./public/images/js.svg", "about":"asdsad"},
-          {"id":5, "lang":"Typescript", "img":"./public/images/ts.png", "about":"asd"},
-          {"id":6, "lang":"ReactJs/Ts", "img":"./public/images/react.png", "about":""},
-          {"id":7, "lang":"Python", "img":"./public/images/py.png", "about":""},
-          {"id":8, "lang":"Django", "img":"./public/images/djn.png", "about":""},
-          {"id":9, "lang":"Rest Api", "img":"./public/images/rest.webp", "about":""},
-          {"id":10, "lang":"Sql", "img":"./public/images/sql.png", "about":""}
+          {"id":0, "lang":"Html", "img":"./images/htmlLogo.png", "about":"ssss"},
+          {"id":1, "lang":"Css", "img":"./images/css.svg.png", "about":"sss"},
+          {"id":2, "lang":"Sass", "img":"./images/sass.png", "about":"ssss"},
+          {"id":3, "lang":"Bootsrap", "img":"./images/bt3.png", "about":"ssasdas"},
+          {"id":4, "lang":"JavaScript", "img":"./images/js.svg", "about":"asdsad"},
+          {"id":5, "lang":"Typescript", "img":"./images/ts.png", "about":"asd"},
+          {"id":6, "lang":"ReactJs/Ts", "img":"./images/react.png", "about":""},
+          {"id":7, "lang":"Python", "img":"./images/py.png", "about":""},
+          {"id":8, "lang":"Django", "img":"./images/djn.png", "about":""},
+          {"id":9, "lang":"Rest Api", "img":"./images/rest.webp", "about":""},
+          {"id":10, "lang":"Sql", "img":"./images/sql.png", "about":""}
         ]
   },
-  "education": [
+  "about": [
     {
-      "degree": "Bachelor of Science in Computer Science",
-      "school": "University Name",
-      "year": "Graduation Year"
+      "aboutMe":"გამარჯობათ, თქვენ იმყოფებით ჩემს რეზიუმე ვებ აპლიკაციაზე, მინდა მოგიყვეთ ჩემს შესახე. მე ვარ 21 წლის,ამჟამად ვარ სტუდენტი, სტუ- საქართველოს ტექნიკურ უნივერსიტეტში. ჩემი და პროგრამირების გზა გადაიკვეთა 2021 წელს. როდესაც პირველად დავწერე კოდი HTML-ში მივხვდი, რომ ეს სფერო ჩემი ყოველდღიურობესი განუყოფელი ნაწილი გახდებოდა, რადგანაც ყოველთვის მივისსწრაფი პრობლემებისკენ, რომლის გადაჭრასაც დიდი ძალისხმევა, კონცენტრაცია, მონდომება და ლოგიკური აზროვნება სჭირდება. გავიარე 1 წლიანი კურსი, IT Academy of Information Technology-ში, სადაც გადავდგი პროგრამირების პირველი ნაბიჯები, კურსის წარმატებით დასწულების შემდეგ ცოდნის გაღრმავების მიზნით გადავწყვიტე სხვა ენების შესწავლა. ვარ მონდომებული,შრომისმოყვარე, ჩემი დისციპლინა და მოტივაცია მაძლევს ძალას, რომ ყოველდღე მთელი ძალით ვიბრძოლო ჩემი მიზნების მისაღწევად",
+      "aboutMeForEnglish": "Hello, you are on my resume web application, I want to tell you about myself. I am 21 years old, I am currently a student at the Technical University of Georgia. My and programming paths crossed in 2021. When I first wrote code in HTML, I realized that this area would become an integral part of my daily life, because I always tend to problems that require a lot of effort, concentration, determination and logical thinking to solve. I completed a 1-year course at the IT Academy of Information Technology, where I took the first steps in programming. After successfully completing the course, I decided to study other languages to improve my knowledge. I am diligent, hardworking, my discipline and motivation give me the strength to fight with all my might every day to achieve my goals.",
+      "education": "IT Academy of Information Technology",
+      "educTime":"1 year",
+      "onlineBootcamp": "Bitcamp",
+      "onlineTime":"1 year"
     }
   ]
 }
