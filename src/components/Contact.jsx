@@ -1,6 +1,6 @@
 import React from 'react';
+import Button from './button/Button';
 import './Contact.css';
-
 function Contact() {
   const submitHandler = (event) => {
     event.preventDefault();
@@ -26,7 +26,7 @@ function Contact() {
           <input type="text" id="linkedin" placeholder="LinkedIn" />
         </div>
 
-        <button  type="submit">Submit</button>
+        <Button btn={"Submit"}/>
       </form>
     </section>
   );

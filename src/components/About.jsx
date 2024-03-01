@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import Button from './button/Button'
 import info from "../info.json"
 import "./about.css"
 function About() {
@@ -20,9 +21,7 @@ const TranslateHandler = () =>{
           <h1>Job Title: {info.personalinformation.jobTitle}</h1>
         </div>
         <div className="aboutMe">
-        <button onClick={() => TranslateHandler()}>
-            {translate ? "Translate English" : "Translate georgian"}
-          </button>
+          <Button btn={translate ? "Translate English" : "Translate georgian"} onClick={TranslateHandler}/>
           {about.map((text, index) => {
             return (
               <div key={index} className='letter'>

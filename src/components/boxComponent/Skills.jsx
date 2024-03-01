@@ -11,7 +11,7 @@ function Skills() {
   const [title, setTitle]=useState('');
   const {id} = useParams()
 
-  const selectedCart = skill.find((cart) => cart.id === parseInt(id, 10));
+  const selectedCart = skill.find((cart) => cart.id === parseInt(id, skill.length));
   if (!selectedCart) {
     return <><NotFound/></>
   }
