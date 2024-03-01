@@ -1,11 +1,6 @@
 /* Contact.css */
 
-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 500px;
-}
+
 
 .contact {
   max-width: 600px;

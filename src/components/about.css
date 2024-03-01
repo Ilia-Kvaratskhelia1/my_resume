@@ -1,6 +1,6 @@
  .aboutMeContainer{
     width: 80%;
-    height: 550px;
+    max-height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,7 +10,6 @@
 }
 .aboutMe{
     text-align: center;
-    padding: 10px;
 }
 .letter{
     padding: 5px;

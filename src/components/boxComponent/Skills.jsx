@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import info from "../../info.json"
 import "./Skills.css"
+import NotFound from "../NotFound"
 // import bt from "../../../public/images/bt3.png"
 // import {} from "../../../public"
 useParams
@@ -9,10 +10,12 @@ function Skills() {
   const [skill, setSkill] = useState(info.personalinformation.skills);
   const [title, setTitle]=useState('');
   const {id} = useParams()
+
   const selectedCart = skill.find((cart) => cart.id === parseInt(id, 10));
   if (!selectedCart) {
-    return <div>Cart not found</div>;
+    return <><NotFound/></>
   }
+
   let imgPath = `${selectedCart.img.replace(".", "")}`
 
   useEffect(() => {
