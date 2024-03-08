@@ -1,8 +1,11 @@
-import React from 'react'
-
+import { useState } from 'react';
 function Resume() {
+
+  
   return (
-    <div>Resume</div>
+    <div>
+      
+    </div>
   )
 }
 

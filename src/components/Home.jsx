@@ -3,7 +3,7 @@ import "./Component.css"
 import info from "..//info.json"
 import SkillBox from './boxComponent/SkillBox'
 
-
+import phoneBg from "../../public/images/bg.webp"
 function Home() {
 
   return (
@@ -16,7 +16,8 @@ function Home() {
     <h2>{info.personalinformation.jobTitle}</h2>
      </div>
      <div className="resumeImg">
-     <img className='' src={info.personalinformation.profileImg} alt="" />
+     <img className='pcCover' src={info.personalinformation.profileImg} alt="" />
+     <img className='mobileBackground' src={phoneBg} alt="" />
      </div>
      </div>
       </section>
