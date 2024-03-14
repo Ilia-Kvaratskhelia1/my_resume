@@ -1,29 +1,56 @@
 /* Contact.css */
 
 
-
 .contact {
-  max-width: 600px;
-  height: 400px;
+  max-width: 80%;
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.contactGroup {
-  margin-bottom: 20px;
-}
+
 .contactGroup input{
-  width: 30%;
-  padding: 18px 18px;
-  margin: 10px 28px;
+  width: 90%;
+  padding: 10px 5px;
+  margin: 10px 0;
+
 
 }
  button{
-  width: 85%;
+  width: 94%;
+  margin: 5px 0;
   padding: 25px;
-  margin: 10px 20px;
 }
+
+
+ @media only screen and (min-width:700px){
+
+  .contact {
+    max-width: 600px;
+    height: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contactGroup {
+    margin-bottom: 20px;
+  }
+  .contactGroup input{
+    width: 30%;
+    padding: 18px 18px;
+    margin: 10px 28px;
+  
+  }
+   button{
+    width: 85%;
+    padding: 25px;
+    margin: 10px 20px;
+  } 
+
+} 
+
 
 
